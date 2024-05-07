@@ -64,7 +64,8 @@ TERM = "xterm-256color"
 size = 15.0
 
 [font.normal]
-family = "SFMono Nerd Font"
+# family = "SFMono Nerd Font"
+family = "FiraCode Nerd Font"
 style = "Regular"
 
 [[keyboard.bindings]]
