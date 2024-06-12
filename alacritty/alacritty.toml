@@ -57,10 +57,13 @@ args = ["-l", "-c", "tmux attach || tmux"]
 program = "/bin/zsh"
 
 [window]
-decorations = "buttonless"
+# decorations = "buttonless"
+decorations = "none"
 dynamic_padding = false
 opacity = 0.96
 # opacity = 1
+decorations_theme_variant = "none"
+
 
 [window.padding]
 x = 10
