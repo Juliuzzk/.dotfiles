@@ -1,29 +1,29 @@
 {
   "schemes" : [
     {
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 2,
+        "speed" : 0.45
+      },
       "scrolling" : {
         "speed" : 0,
+        "distance" : "auto",
         "reverse" : {
           "vertical" : false
         },
-        "distance" : "auto",
         "acceleration" : 1
-      },
-      "pointer" : {
-        "speed" : 0.45,
-        "disableAcceleration" : false,
-        "acceleration" : 0
       },
       "if" : {
         "device" : {
+          "serialNumber" : "3E4B5B3A602BCFCA",
           "category" : "mouse",
-          "productID" : "0xb01c",
           "vendorID" : "0x46d",
-          "productName" : "G603",
-          "serialNumber" : "3E4B5B3A602BCFCA"
+          "productID" : "0xb01c",
+          "productName" : "G603"
         }
       }
     }
   ],
-  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5"
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0"
 }

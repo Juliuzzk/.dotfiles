@@ -1,5 +1,9 @@
-.DS_Store
-nvim/*
-nvim
-karabiner
-filezilla
+
+# Ignorar todas las carpetas listadas
+gtk-2.0/
+linearmouse/
+nvim/
+
+# Excluir el archivo starship.toml del .gitignore
+!starship.toml
+
